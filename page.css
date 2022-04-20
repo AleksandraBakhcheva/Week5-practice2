@@ -1,0 +1,67 @@
+html{
+    font-weight: 600;
+    font-size: 20px;
+}
+.container, .sectioncontainer, .asidecontainer, .footercont{
+    flex-direction: column;
+}
+.container, .container1, .sectioncontainer, .elements, .asidecontainer, .element1, .element2, .element3, .footercont, .container2{
+    display: flex;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    background-color: #c0bbbb9b;
+}
+.container1{
+    width: 100vw;
+    height: 60vh;
+    justify-content: flex-end;
+    background-color: rgb(239, 232, 221);  
+}
+.sectioncontainer{
+    padding-top: 30px;
+    width: 70vw;
+    align-items: center; 
+}
+.elements{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-bottom: 30px;
+    justify-content: space-around;
+}
+.element1, .element2, .element3{
+    align-items: center;
+    justify-content: center;
+    height: 14vh;
+    background-color: rgb(249, 223, 174);
+    
+}
+.element1, .element2{
+    width: 30vw;
+    margin-bottom: 30px;
+}   
+.element3{
+    width: 65vw;
+}
+.asidecontainer{
+    align-items: center;
+    padding-top: 30px;
+    width: 30vw;
+    background-color: rgb(195, 224, 195);
+}
+.container2{
+    align-items: center;
+    justify-content: space-around;
+    height: 25vh;
+    background-color: rgb(209, 205, 205);
+}
+.footercont{
+    align-items: center;
+    justify-content: center;
+    width: 22vw;
+    height: 17vh;
+    background-color: rgb(245, 245, 240);
+}
